@@ -121,8 +121,6 @@ else:
     args.ref_model = "stabilityai/stablelm-base-alpha-3b-v2"
 
 
-
-# fre_dis_pat = f"/home/hr3331/projects/DC-PDD-main/output/fre_dis/{args.dataset}/{args.model.split('/')[-1]}.pkl"
 fre_dis_p = f'{args.out_dir}/output/fre_dis'
 dc_pdd = True
 try:
