@@ -3,7 +3,7 @@ This is the official repository for the paper Automatic Calibration for Membersh
 ## Overview
 We propose ACMIA, a calibration-based framework for improving membership inference attacks (MIAs) on large language models (LLMs). Existing MIA methods often misclassify non-training texts as training data, especially when the texts are simple or share surface-level features with pre-training corpora. ACMIA addresses this issue by automatically calibrating token probabilities using a tunable temperature parameter, which refines the likelihood distribution without relying on additional reference models. This calibration is grounded in theoretical insights from maximum likelihood estimation and enhances the separation between member and non-member samples. We introduce three variants: AC, DerivAC, and NormAC, each capturing different aspects of model behavior and text complexity. To support evaluation, we benchmark ACMIA across three standard datasets: [WikiMIA](https://huggingface.co/datasets/swj0419/WikiMIA), [MIMIR](https://huggingface.co/datasets/iamgroot42/mimir), and [PatentMIA](https://github.com/zhang-wei-chao/DC-PDD).
 
-![GitHub Logo](https://github.com/user-attachments/files/20041885/illustration.pdf)
+[View full-resolution figure (PDF)](./illustration.pdf)
 
 ## ACMIA (& baselines)
 We first obtain the token log probability distribution by querying the LLM with the input text, and then compute the token log probability distributions under different temperature settings.
