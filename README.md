@@ -33,5 +33,10 @@ This codebase is adapted from the [official repo](https://github.com/zhang-wei-c
 ## Citation
 If you find this work helpful, please consider citing our paper:
 ```
-
+@article{zade2025automatic,
+  title={Automatic Calibration for Membership Inference Attack on Large Language Models},
+  author={Zade, Saleh Zare and Qiang, Yao and Zhou, Xiangyu and Zhu, Hui and Roshani, Mohammad Amin and Khanduri, Prashant and Zhu, Dongxiao},
+  journal={arXiv preprint arXiv:2505.03392},
+  year={2025}
+}
 ```
